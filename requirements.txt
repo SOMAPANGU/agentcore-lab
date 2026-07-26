@@ -1,0 +1,5 @@
+# Core framework
+strands-agents>=1.50.1
+
+# RSS / news fetching
+feedparser>=6.0.12
