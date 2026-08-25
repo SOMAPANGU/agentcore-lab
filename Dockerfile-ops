@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ops_helper_agent.py .
-COPY ticket_status_tool.py .
+#COPY ticket_status_tool.py .
 
 EXPOSE 8080
 

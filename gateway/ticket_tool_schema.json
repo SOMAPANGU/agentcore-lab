@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ticket_status_lookup",
+    "description": "Look up an ops ticket by id (e.g. INC-123, INC-456, INC-999). Use only when the user asks about a ticket status, owner, severity, or summary.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ticket_id": {
+          "type": "string",
+          "description": "Ticket id like INC-123"
+        }
+      },
+      "required": ["ticket_id"]
+    }
+  }
+]
